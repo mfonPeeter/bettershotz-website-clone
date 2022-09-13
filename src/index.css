@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  color: #f6b130;
+  @apply font-nunitosans bg-blackGray;
+}
