@@ -8,6 +8,5 @@
 
 body {
   box-sizing: border-box;
-  color: #f6b130;
   @apply font-nunitosans bg-blackGray;
 }

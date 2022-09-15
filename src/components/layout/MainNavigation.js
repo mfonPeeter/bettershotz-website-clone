@@ -3,13 +3,13 @@ import logoImage from '../../assets/logo.svg';
 const MainNavigation = () => {
   return (
     // Navigation Container
-    <div className="container mx-auto max-w-full px-6 py-9">
+    <div className="container mx-auto max-w-full px-6 pt-7 pb-4 md:pt-9 lg:pt-8">
       {/* Menu/Logo Container */}
       <nav className="flex justify-between items-center font-extrabold">
         {/* Logo */}
         <img src={logoImage} alt="Bettershotz logo" />
         {/* Menu */}
-        <ul className="hidden text-lg text-zinc-500 lg:flex lg:justify-between lg:space-x-12">
+        <ul className="hidden text-zinc-500 md:flex md:justify-between md:space-x-10">
           <li>
             <a href="#themes" className="hover:text-white">
               Themes
@@ -32,8 +32,8 @@ const MainNavigation = () => {
           </li>
         </ul>
         <a
-          href="mailto:goidmfon@gmail.com"
-          className="hidden px-7 py-4 text-lg text-saffron border border-saffronDark rounded hover:border-saffron lg:flex"
+          href="mailto:godimfon@gmail.com"
+          className="hidden px-7 py-4 text-saffron border border-saffronDark rounded hover:border-saffron md:flex"
         >
           Request today
         </a>
