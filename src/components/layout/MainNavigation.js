@@ -3,7 +3,7 @@ import logoImage from '../../assets/logo.svg';
 const MainNavigation = () => {
   return (
     // Navigation Container
-    <div className="container mx-auto max-w-full px-6 pt-7 pb-4 md:pt-9 lg:pt-8">
+    <div className="container mx-auto max-w-screen-xl px-6 pt-7 pb-4 md:pt-9 lg:pt-8 ">
       {/* Menu/Logo Container */}
       <nav className="flex justify-between items-center font-extrabold">
         {/* Logo */}
