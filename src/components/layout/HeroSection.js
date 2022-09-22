@@ -3,7 +3,7 @@ import Icon from '../icon/Icon';
 const HeroSection = () => {
   return (
     <header className="bg-hero-background bg-cover bg-no-repeat bg-left">
-      <div className="container mx-auto max-w-xl pt-16 pb-32 text-center sm:max-w-2xl sm:pt-32 lg:max-w-5xl">
+      <div className="container mx-auto max-w-xl pt-16 pb-40 text-center sm:max-w-2xl sm:pt-32 md:pb-44 lg:max-w-5xl">
         <h1 className="font-playfair text-4xl mb-6 leading-snug sm:mb-10 sm:text-[3.25rem] sm:leading-tight lg:mb-12 lg:text-[5.625rem] lg:leading-none">
           <span className="text-gray-500">Make your portfolio</span>
           <br />

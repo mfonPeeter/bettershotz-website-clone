@@ -10,3 +10,7 @@ body {
   box-sizing: border-box;
   @apply font-nunitosans bg-blackGray;
 }
+
+#second-demo-image {
+  clip-path: polygon(0 0, 50% 0, 50% 67.6%, 0 67.6%);
+}
