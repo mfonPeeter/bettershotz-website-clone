@@ -1,8 +1,9 @@
 import { Fragment } from 'react';
 
-import MainNavigation from '../components/layout/MainNavigation';
-import HeroSection from '../components/layout/HeroSection';
-import ComparisonSlider from '../components/layout/ComparisonSlider';
+import MainNavigation from '../components/Layout/MainNavigation';
+import HeroSection from '../components/Layout/HeroSection';
+import ComparisonSlider from '../components/Layout/ComparisonSlider';
+import ShowDemoButton from '../components/Layout/ShowDemoButton';
 
 const MainPage = () => {
   return (
@@ -10,6 +11,7 @@ const MainPage = () => {
       <MainNavigation />
       <HeroSection />
       <ComparisonSlider />
+      <ShowDemoButton />
     </Fragment>
   );
 };
