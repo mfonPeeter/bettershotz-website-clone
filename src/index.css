@@ -18,3 +18,11 @@ body {
 .feature-box {
   @apply text-white bg-darkGray border-b border-[#2D2D2D] duration-700 transition-all hover:bg-darkGrayLight hover:border-[#3A3A3A];
 }
+
+.line-through-container {
+  @apply container mx-auto max-w-[1230px];
+}
+
+.line-through {
+  @apply mx-4 sm:mx-7 md:mx-5 border-b border-darkGrayLight;
+}

@@ -5,6 +5,7 @@ import HeroSection from '../components/Layout/HeroSection';
 import ComparisonSlider from '../components/Layout/ComparisonSlider';
 import ShowDemoButton from '../components/Layout/ShowDemoButton';
 import Features from '../components/Layout/Features';
+import Pricing from '../components/Layout/Pricing';
 
 const MainPage = () => {
   return (
@@ -14,6 +15,7 @@ const MainPage = () => {
       <ComparisonSlider />
       <ShowDemoButton />
       <Features />
+      <Pricing />
     </Fragment>
   );
 };
