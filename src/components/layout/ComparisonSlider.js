@@ -46,7 +46,7 @@ const ComparisonSlider = () => {
     <div className="px-5 -mt-16 mb-8">
       <div
         ref={imageContainer}
-        className="relative max-w-6xl w-full mx-auto mt-10 select-none"
+        className="relative max-w-[1200px] w-full mx-auto mt-10 select-none"
       >
         <img
           src={firstImage}

@@ -14,3 +14,7 @@ body {
 #second-demo-image {
   clip-path: polygon(0 0, 50% 0, 50% 67.6%, 0 67.6%);
 }
+
+.feature-box {
+  @apply text-white bg-darkGray border-b border-[#2D2D2D] duration-700 transition-all hover:bg-darkGrayLight hover:border-[#3A3A3A];
+}
