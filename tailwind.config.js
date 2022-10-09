@@ -14,6 +14,7 @@ module.exports = {
         saffron: 'rgb(246,177,48)',
         saffronDark: 'rgb(148,106,29)',
         orangePink: 'rgb(221, 145, 110)',
+        orangePinkDark: 'rgba(221, 145, 110, 0.63)',
       },
       backgroundImage: {
         'hero-background': "url('/src/assets/background.jpg')",

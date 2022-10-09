@@ -11,6 +11,18 @@ body {
   @apply font-nunitosans bg-blackGray;
 }
 
+/* @media (max-width: 1100px) {
+  .first-box-margin {
+    margin-bottom: 3.5rem;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .first-box-margin {
+    margin-bottom: 4.7rem;
+  }
+} */
+
 #second-demo-image {
   clip-path: polygon(0 0, 50% 0, 50% 67.6%, 0 67.6%);
 }
@@ -25,4 +37,34 @@ body {
 
 .line-through {
   @apply mx-4 sm:mx-7 md:mx-5 border-b border-darkGrayLight;
+}
+
+.tick {
+  @apply relative inline-block w-5 h-5 rounded-full;
+}
+
+.tick::before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  height: 25%;
+  width: 0.1rem;
+  transform: translateX(-50%) rotate(-45deg);
+  transform-origin: left bottom;
+  @apply bg-darkGrayLight;
+}
+
+.tick::after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  height: 45%;
+  width: 0.1rem;
+  transform: translate(-50%, -0.2rem) rotate(45deg);
+  transform-origin: left bottom;
+  @apply bg-darkGrayLight;
 }
