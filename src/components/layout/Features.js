@@ -235,7 +235,7 @@ const Features = () => {
           </div>
 
           {/* Box 9 */}
-          <div className=" group text-white bg-darkGray border-b border-orangePink duration-700 transition-all hover:bg-darkGrayLight">
+          <div className=" group text-white bg-darkGray border-b-2 border-orangePink duration-700 transition-all hover:bg-darkGrayLight">
             {/* Text Container */}
             <div className="p-8 sm:py-24 md:py-14">
               {/* Icon & Header Container */}
