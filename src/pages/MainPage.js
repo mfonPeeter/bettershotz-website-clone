@@ -6,6 +6,7 @@ import ComparisonSlider from '../components/Layout/ComparisonSlider';
 import ShowDemoButton from '../components/Layout/ShowDemoButton';
 import Features from '../components/Layout/Features';
 import Pricing from '../components/Layout/Pricing';
+import Faq from '../components/Layout/Faq';
 
 const MainPage = () => {
   return (
@@ -16,6 +17,7 @@ const MainPage = () => {
       <ShowDemoButton />
       <Features />
       <Pricing />
+      <Faq />
     </Fragment>
   );
 };

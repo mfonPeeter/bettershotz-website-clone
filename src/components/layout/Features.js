@@ -16,7 +16,7 @@ const Features = () => {
       </div>
 
       {/* Global Container */}
-      <div className="container mx-auto max-w-[1230px] px-4 sm:px-7 md:px-5">
+      <div className="box-container">
         {/* Grid Container */}
         <div className="grid gap-y-4 grid-cols-1 sm:gap-x-7 sm:grid-cols-2 md:gap-y-7 md:grid-cols-3">
           {/* Box 1 */}

@@ -7,7 +7,7 @@ const Pricing = () => {
   return (
     <section>
       {/* Border line */}
-      <div className="line-through-container">
+      <div className="box-container">
         <div className="line-through mb-14 md:mb-20"></div>
       </div>
 
@@ -22,7 +22,7 @@ const Pricing = () => {
       </div>
 
       {/* Global Container */}
-      <div className="container mx-auto mb-12 max-w-[1230px] px-4 sm:px-7 md:px-5">
+      <div className="box-container mb-12">
         {/* Grid Container */}
         <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-y-0 md:gap-x-7">
           {/* Box 1 */}
@@ -179,7 +179,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <p className="mb-20 px-10 mx-auto text-zinc-400 text-center md:text-xs md:max-w-3xl">
+      <p className="mb-14 px-10 mx-auto text-zinc-400 text-center md:mb-28 md:text-xs md:max-w-3xl">
         Create your professional website quickly without any struggles. Just
         select one of our beautiful designs, change predefined texts, upload
         your photos and thats it. You are all set to show your portfolio to the
