@@ -38,7 +38,7 @@ body {
 }
 
 .feature-box {
-  @apply text-white bg-darkGray border-b border-[#2D2D2D] duration-700 transition-all hover:bg-darkGrayLight hover:border-[#3A3A3A];
+  @apply text-white bg-darkGray border-b-2 border-[#2D2D2D] duration-700 transition-all hover:bg-darkGrayLight hover:border-[#3A3A3A];
 }
 
 .line-through {
