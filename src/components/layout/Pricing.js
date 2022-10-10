@@ -48,7 +48,7 @@ const Pricing = () => {
             </div>
 
             {/* List Container */}
-            <ul className="flex flex-col space-y-4 mb-10 list-none md:mb-14">
+            <ul className="first-box-margin flex flex-col space-y-4 mb-10 list-none ">
               <li className="flex items-start space-x-3">
                 <div>
                   <div className="tick bg-saffron" />

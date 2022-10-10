@@ -11,17 +11,23 @@ body {
   @apply font-nunitosans bg-blackGray;
 }
 
-/* @media (max-width: 1100px) {
+@media (min-width: 768px) {
   .first-box-margin {
     margin-bottom: 3.5rem;
   }
-} */
+}
 
-/* @media (max-width: 768px) {
+@media (min-width: 834px) {
   .first-box-margin {
     margin-bottom: 4.7rem;
   }
-} */
+}
+
+@media (min-width: 1100px) {
+  .first-box-margin {
+    margin-bottom: 3.5rem;
+  }
+}
 
 #second-demo-image {
   clip-path: polygon(0 0, 50% 0, 50% 67.6%, 0 67.6%);
