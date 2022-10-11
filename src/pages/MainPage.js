@@ -7,6 +7,7 @@ import ShowDemoButton from '../components/Layout/ShowDemoButton';
 import Features from '../components/Layout/Features';
 import Pricing from '../components/Layout/Pricing';
 import Faq from '../components/Layout/Faq';
+import Cta from '../components/Layout/Cta';
 
 const MainPage = () => {
   return (
@@ -18,6 +19,7 @@ const MainPage = () => {
       <Features />
       <Pricing />
       <Faq />
+      <Cta />
     </Fragment>
   );
 };
