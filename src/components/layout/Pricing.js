@@ -108,7 +108,7 @@ const Pricing = () => {
             <img
               src={secondIcon}
               alt="Yellow Icon"
-              className="w-24 h-24 absolute -top-12 left-2/4 -translate-x-2/4"
+              className="w-[5.3125rem] h-[5.3125rem] absolute -top-10 left-2/4 -translate-x-2/4"
             />
 
             {/* Header Container */}
