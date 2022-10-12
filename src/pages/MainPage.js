@@ -8,6 +8,7 @@ import Features from '../components/Layout/Features';
 import Pricing from '../components/Layout/Pricing';
 import Faq from '../components/Layout/Faq';
 import Cta from '../components/Layout/Cta';
+import Footer from '../components/Layout/Footer';
 
 const MainPage = () => {
   return (
@@ -20,6 +21,7 @@ const MainPage = () => {
       <Pricing />
       <Faq />
       <Cta />
+      <Footer />
     </Fragment>
   );
 };

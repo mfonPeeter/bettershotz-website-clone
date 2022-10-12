@@ -4,7 +4,7 @@ import Icon from '../Icon/Icon';
 const Cta = () => {
   return (
     <header className="mb-14 bg-hero-background bg-cover bg-no-repeat bg-left">
-      <div className="container mx-auto max-w-xl pt-28 pb-14 text-center sm:max-w-2xl sm:pt-96 sm:pb-80 lg:max-w-5xl">
+      <div className="container mx-auto max-w-xl pt-28 pb-14 text-center sm:max-w-2xl sm:pt-96 sm:pb-72 lg:max-w-5xl">
         <p className="font-benchnine font-bold text-sm text-saffron mb-5 uppercase tracking-[0.3em] sm:mb-8 sm:text-lg">
           Do you like our template?
         </p>
