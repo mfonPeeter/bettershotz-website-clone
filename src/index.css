@@ -146,3 +146,8 @@ body {
     margin-bottom: 3.5rem;
   }
 }
+
+::selection {
+  background: #eda217;
+  color: #fff;
+}
