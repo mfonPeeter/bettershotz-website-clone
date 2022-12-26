@@ -5,7 +5,7 @@ import secondIcon from '../../assets/icons/icon-2.png';
 
 const Pricing = () => {
   return (
-    <section>
+    <section id="price">
       {/* Border line */}
       <div className="box-container">
         <div className="line-through mb-14 md:mb-20"></div>

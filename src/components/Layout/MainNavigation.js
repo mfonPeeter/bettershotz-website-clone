@@ -15,7 +15,9 @@ const MainNavigation = () => {
   return (
     <div className="box-container pt-7 pb-4 md:pt-9 lg:pt-8">
       <nav className="flex justify-between items-center font-extrabold">
-        <img src={logoImage} alt="Bettershotz logo" />
+        <a href="https://bettershotz-clone.netlify.app/">
+          <img src={logoImage} alt="Bettershotz logo" />
+        </a>
         <ul className="hidden text-zinc-500 md:flex md:justify-between md:space-x-10">
           <li>
             <a href="#themes" className="hover:text-white">

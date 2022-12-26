@@ -43,7 +43,7 @@ const ComparisonSlider = () => {
   };
 
   return (
-    <div className="px-5 -mt-16 mb-8">
+    <div id="themes" className="px-5 -mt-16 mb-8">
       <div
         ref={imageContainer}
         className="relative max-w-[1200px] w-full mx-auto mt-10 select-none"

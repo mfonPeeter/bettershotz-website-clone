@@ -2,7 +2,7 @@ import React from 'react';
 
 const Faq = () => {
   return (
-    <section>
+    <section id="faq">
       {/* Border line */}
       <div className="box-container">
         <div className="line-through mb-5 sm:mb-8"></div>

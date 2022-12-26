@@ -5,7 +5,7 @@ import thirdBox from '../../assets/boxes/box-3.png';
 
 const Features = () => {
   return (
-    <section className="mb-14 md:mb-20">
+    <section id="features" className="mb-14 md:mb-20">
       <div className="text-center">
         <h4 className="mb-3 text-zinc-400 text-sm font-benchnine font-bold tracking-[5.3px] uppercase sm:mb-7 sm:text-lg">
           - Learn More -

@@ -21,7 +21,7 @@ const HeroSection = () => {
 
         <div className="flex space-x-6 justify-center">
           <a
-            href="mailto:godimfon@gmail.com"
+            href="https://bettershotz-clone.netlify.app/"
             className="hidden px-7 py-4 text-white font-bold border border-gray-500 rounded hover:border-white sm:flex sm:items-center sm:space-x-2"
           >
             <Icon icon="controller-play" size={22} />
