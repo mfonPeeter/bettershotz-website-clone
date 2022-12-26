@@ -68,20 +68,33 @@ const MainNavigation = () => {
           isOpen ? 'w-[98%] opacity-100' : ''
         }`}
       >
-        <a href="#themes" className="hover:text-white">
+        <a
+          onClick={navToggleHandler}
+          href="#themes"
+          className="hover:text-white"
+        >
           Themes
         </a>
-        <a href="#features" className="hover:text-white">
+        <a
+          onClick={navToggleHandler}
+          href="#features"
+          className="hover:text-white"
+        >
           Features
         </a>
-        <a href="#price" className="hover:text-white">
+        <a
+          onClick={navToggleHandler}
+          href="#price"
+          className="hover:text-white"
+        >
           Price list
         </a>
-        <a href="#faq" className="hover:text-white">
+        <a onClick={navToggleHandler} href="#faq" className="hover:text-white">
           Faq
         </a>
         <div>
           <a
+            onClick={navToggleHandler}
             href="mailto:godimfon@gmail.com"
             className="inline-block px-6 py-3 text-base text-saffron border border-saffronDark rounded hover:border-saffron"
           >
