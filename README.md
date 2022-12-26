@@ -2,7 +2,7 @@
 
 I made use of React and Tailwind CSS to create a clone of the home page of Bettershotz website. Original website is https://bettershotz.com/
 
-Below is an image from the Laon e-commerce site:
+Below is an image from the bettershotz homepage clone site:
 
 ![bettershotz](https://user-images.githubusercontent.com/105684251/209584351-649479d3-b620-48b7-9f57-df2f887feade.png)
 
